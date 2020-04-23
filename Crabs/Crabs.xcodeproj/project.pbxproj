@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		ABF0D99C2451032700D99127 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF0D99B2451032700D99127 /* AppDelegate.swift */; };
 		ABF0D99E2451032700D99127 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF0D99D2451032700D99127 /* SceneDelegate.swift */; };
-		ABF0D9A02451032700D99127 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF0D99F2451032700D99127 /* ViewController.swift */; };
 		ABF0D9A32451032900D99127 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF0D9A12451032900D99127 /* Main.storyboard */; };
 		ABF0D9A52451056A00D99127 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABF0D9A42451056A00D99127 /* Assets.xcassets */; };
 		ABF0D9A82451056B00D99127 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF0D9A62451056B00D99127 /* LaunchScreen.storyboard */; };
+		ABF0D9B0245131A800D99127 /* Crab.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABF0D9AF245131A700D99127 /* Crab.xcassets */; };
+		ABF0D9B22451331E00D99127 /* SKSpriteNode+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF0D9B12451331E00D99127 /* SKSpriteNode+Utility.swift */; };
+		ABF0D9B42451351A00D99127 /* Info.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF0D9B32451351900D99127 /* Info.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ABF0D9982451032700D99127 /* Crabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABF0D99B2451032700D99127 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABF0D99D2451032700D99127 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ABF0D99F2451032700D99127 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ABF0D9A22451032900D99127 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ABF0D9A42451056A00D99127 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABF0D9A72451056B00D99127 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABF0D9A92451056B00D99127 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABF0D9AF245131A700D99127 /* Crab.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Crab.xcassets; path = ../../Crab.xcassets; sourceTree = "<group>"; };
+		ABF0D9B12451331E00D99127 /* SKSpriteNode+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "SKSpriteNode+Utility.swift"; path = "../../SKSpriteNode+Utility.swift"; sourceTree = "<group>"; };
+		ABF0D9B32451351900D99127 /* Info.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Info.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 			children = (
 				ABF0D99B2451032700D99127 /* AppDelegate.swift */,
 				ABF0D99D2451032700D99127 /* SceneDelegate.swift */,
-				ABF0D99F2451032700D99127 /* ViewController.swift */,
+				ABF0D9B12451331E00D99127 /* SKSpriteNode+Utility.swift */,
 				ABF0D9A12451032900D99127 /* Main.storyboard */,
 				ABF0D9A42451056A00D99127 /* Assets.xcassets */,
+				ABF0D9AF245131A700D99127 /* Crab.xcassets */,
 				ABF0D9A62451056B00D99127 /* LaunchScreen.storyboard */,
 				ABF0D9A92451056B00D99127 /* Info.plist */,
+				ABF0D9B32451351900D99127 /* Info.storyboard */,
 			);
 			path = Crabs;
 			sourceTree = "<group>";
@@ -126,7 +132,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABF0D9A82451056B00D99127 /* LaunchScreen.storyboard in Resources */,
+				ABF0D9B0245131A800D99127 /* Crab.xcassets in Resources */,
 				ABF0D9A52451056A00D99127 /* Assets.xcassets in Resources */,
+				ABF0D9B42451351A00D99127 /* Info.storyboard in Resources */,
 				ABF0D9A32451032900D99127 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABF0D9A02451032700D99127 /* ViewController.swift in Sources */,
+				ABF0D9B22451331E00D99127 /* SKSpriteNode+Utility.swift in Sources */,
 				ABF0D99C2451032700D99127 /* AppDelegate.swift in Sources */,
 				ABF0D99E2451032700D99127 /* SceneDelegate.swift in Sources */,
 			);
